@@ -1,0 +1,274 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .navbar {
+      background-color: #e95525;
+  }
+
+  .nav-item .nav-link {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .navbar .nav-link {
+    border:2px solid transparent;
+    border-radius: 4px;
+  }
+  
+  .navbar .nav-link:hover{
+    border-color: #363232;
+    background-color: white;
+  }
+  
+
+  .nav-item .nav-link:link {
+   color: white
+  }
+  
+  .nav-item .nav-link:visited {
+  color:  white;
+  }
+  
+  .nav-item .nav-link:hover {
+   color: #363232;
+  }
+  
+  .nav-item .nav-link:active {
+    color: red;
+  }
+
+
+h3 {
+    text-align: center;
+    padding-top: 30px;
+    color: #363232;
+    text-shadow: 2px 1px whitesmoke;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+}
+
+.text1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-left: 55px;
+    padding-top: 150px;
+    animation: fadein ease 7s;
+}
+
+  @keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
+.h4 {
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
+    color: #e95525;
+    text-shadow: 2px 1px whitesmoke;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+  .container-fluid {
+    padding: 0%;
+}
+.bg-1 {
+  background-image: url("../images/Computer.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  background-size: cover;
+  z-index: -1;
+  background-size: 100% 100%;
+  background-position: cover;
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+-webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.bg-2 {
+     
+  background-color: white;
+  height: 500px;
+  -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+  -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+  box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.bg-3 {
+    background-color: whitesmoke;
+    height: 400px;
+    -moz-box-shadow:0 5px 5px rgba(182, 182, 182, 0.75);
+    -webkit-box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+    box-shadow: 0 5px 5px rgba(182, 182, 182, 0.75);
+}
+
+.bg-4 {
+    background-color: #ea5d2e;
+    height: 360px;
+}
+
+.pageangle1 {
+    position: fixed;
+    bottom: -10px;
+    right: -10px;
+}
+
+.Who {
+    background-color: orangered;
+    font-family: Tahoma, Geneva, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px grey;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px orangered, 0 0 25px orange;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.Who:focus {
+    outline: none;
+ }
+
+
+
+#hr1 {
+    width: 100px;
+    border: 2px solid #e95525;
+    margin-top: 1px;
+    
+}
+
+.page-section {
+    margin-top: 120px;
+}
+
+.p1 {
+    color: #363232;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 22px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: auto;
+    font-weight: bold;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.footer__horizontal-bar {
+    width: 800px;
+    bottom: 50px;
+
+}
+
+.footer .footer__bottom-paragraph {
+  text-align: center;
+  color: white;
+  padding-bottom: 120px;
+
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-left: -15px;
+   }
+
+  .bg-1 {
+    background-image: url("../images/Computer.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.bg-2 {
+     
+    background-color: white;
+    height: 950px;
+  }
+
+
+.text {
+    padding-top: 80px;
+    font-size: 30px;
+    
+}
+
+.text1 {
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+.bg-4 {
+    background-color: #ea5d2e;
+    height: 530px;
+}
+
+.p1 {
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 60px;
+   
+}
+
+.footer__horizontal-bar {
+    width: 250px;
+
+}
+.footer .footer__bottom-paragraph {
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.col-md-4 {
+    text-align: center;
+    justify-content: center;
+}
+
+#imgicn12 {
+    margin-left: 45px;
+}
+
+.pageangle1 {
+    position: fixed;
+    bottom: -10px;
+    right: -42px;
+}
+
+.nav-item .nav-link:hover {
+    width: 90px;
+}
+
+}
+
+@media (min-width: 768px) {
+    .nav-item .nav-link {
+        margin-right: 20px;
+    }
+
+    .pageangle1 {
+        position: absolute;
+        bottom: 100px;
+        right: -25px;
+    }
+
+}

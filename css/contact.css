@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .bg-8 {
+      background-color: white;
+      height: 600px;
+  }
+
+form {
+    margin-top: 80px;
+    padding: 50px 50px;
+    width: 900px;
+}
+
+.forms {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-block {
+    background-color:rgb(255, 51, 0);
+    cursor: pointer;
+}
+
+
+  @media (max-width: 600px) {
+    .bg-8 {
+        height: 600px;
+    }
+ }
+
+  @media (min-width: 1024px) {
+   .bg-8 {
+       height: 900px
+   }
+   form {
+    margin-top: 200px;
+   }
+ }

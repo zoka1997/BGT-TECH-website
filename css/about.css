@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+ .bg-5 {
+    background-color: white;
+    height: 600px;
+ }
+
+  .bg-6 {
+    background-image: url("../images/About-emploees.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+  }
+
+  #about {
+    padding: 80px 0px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  #about .right-text {
+    align-self: center;
+  }
+  
+  #about .right-text p {
+    margin-bottom: 40px;
+  }
+  
+  #about2 {
+    padding: 120px 0px;
+  }
+  
+  #about2 .right-image {
+    align-self: center;
+  }
+  
+  #about h5,
+  #about2 h5 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #1e1e1e;
+    line-height: 40px;
+    margin-bottom: 25px;
+    letter-spacing: 0.5px;
+  }
+  
+  #about p,
+  #about2 p {
+    margin-bottom: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+  }
+  
+  #about2 ul li img {
+    display: inline;
+
+  }
+  
+  #about2 ul li .text {
+    margin-left: 80px;
+  }
+  
+  #about2 ul li .text h6 {
+    padding-top: 12px;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+  }
+  
+.img-fluid {
+  border-radius: 15px;
+  box-shadow: 10px 10px 12px 0px #e95525;
+}
+
+.right-text {
+  margin-top: 20px;
+}
+
+.h2cont {
+   font-weight: bolder;
+}
+
+.p3 {
+line-height: 0.3;
+}
+
+.flex-container {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.card {
+  width: 400px;
+  margin: 20px;
+}
+
+.card:hover {
+   box-shadow: 0 0 5px 10px orangered;
+}
+
+#cardimg {
+  border-radius: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .right-text {
+    margin-top: 40px;
+  }
+  .bg-6 {
+    height: 1200px;
+  }
+}
+
+@media (max-width: 768px) {
+  #about {
+    padding: 20px 0px 120px 0px;
+  }
+  .img-fluid {
+    width: 300px;
+    height: 300px;
+  }
+  .bg-5 {
+    background-color: white;
+    height: 800px;
+ }
+ .right-text {
+  margin-top: 40px;
+ }
+ .bg-6 {
+  height: 2200px;
+}
+}
+
+
+
+
+
+
